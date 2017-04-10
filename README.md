@@ -1,5 +1,6 @@
 # MathBattleCheat
-Math battle on Telegram's Cheat - Java implementation
+Math battle on Telegram's Cheat - Java implementation.
+This is just for time wasting and for fun.
 
 Dependencies
 - Tess4j-3.3.1 (+all dependencies)
@@ -7,7 +8,7 @@ Dependencies
 - FreeTTs-1.2.2 (+ dependencies )
 - JDK8
 
-Main class - math.battle.cheat.ParserApp
+Main class - `math.battle.cheat.ParserApp`
 Open the class and change any configs necessary to run app e.g
 - Where your screnshot images go to 
 - Screenshot buttons
@@ -15,11 +16,11 @@ Open the class and change any configs necessary to run app e.g
 
 
 # How to Run
-# ------------
+
 ** Note: Tested on Mac Os Sierra Only **
 - Install telegram on your desktop
 - Open MathBattle
-- Run the class math.battle.cheat.ParserApp
+- Run the `class math.battle.cheat.ParserApp` on your IDE
 - Switch back to MathBattle on Telegram
 - Print the first print screen (Depends on your keyboard and or customization)
 - App should carry on playing math battle by itself. 
