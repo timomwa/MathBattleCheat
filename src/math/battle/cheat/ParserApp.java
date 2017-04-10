@@ -4,9 +4,9 @@ import java.io.File;
 
 public class ParserApp {
 	
-	public static final int MATH_BATTLE_X_CORRECT_BTN_LOCATION_ON_SCHREEN = 800;
-	public static final int MATH_BATTLE_Y_CORRECT_BTN_LOCATION_ON_SCHREEN = 700;
-	public static final int MATH_BATTLE_X_WRONG_BTN_LOCATION_ON_SCHREEN_OFFSET = 150;
+	public static final int MATH_BATTLE_X_CORRECT_BTN_LOCATION_ON_SCHREEN = 820;
+	public static final int MATH_BATTLE_Y_CORRECT_BTN_LOCATION_ON_SCHREEN = 730;
+	public static final int MATH_BATTLE_X_WRONG_BTN_LOCATION_ON_SCHREEN_OFFSET = 110;
 	public static final String USER_DIR = System.getProperty("user.dir");
 	public static final String FILE_SEPERATOR = File.separator;
 	public static final String MBROLA_DIR = USER_DIR+FILE_SEPERATOR+"MBROLA";
@@ -31,16 +31,7 @@ public class ParserApp {
 	public static void main(String[] args) {
 		System.setProperty("mbrola.base", MBROLA_DIR);
 		DesktopParser mbc = new DesktopParser();
-		ScreenshotCleanupWorker screenshotWorker = new ScreenshotCleanupWorker(DesktopParser.lifo_linked_queue_to_delete);
-		new Thread(screenshotWorker).start();
-		mbc.start();
-		
-		
-		
-		
-		
-		
-		
+		new Thread(mbc).start();
 	}
 
 }

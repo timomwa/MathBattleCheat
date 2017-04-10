@@ -32,7 +32,7 @@ public class RoboMouse {
 	 * as appropriate
 	 * @throws Exception
 	 */
-	private void screenshot() throws Exception {
+	public void screenshot() throws Exception {
 		screencaptureBot.keyPress(KeyEvent.VK_META);
 		screencaptureBot.keyPress(KeyEvent.VK_M);
 		

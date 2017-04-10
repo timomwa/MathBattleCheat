@@ -18,7 +18,7 @@ public class MathParser {
 	public static Map<String, String> replacements = new HashMap<String, String>();
 	public static Map<String, MathOperation> operators = new HashMap<String, MathOperation>();
 	public static Map<MathOperation, Calculator> calculator_registry = new HashMap<MathOperation, Calculator>();
-	public Output voiceTTS = new VoiceOutPutWAVPlayer();
+	//public Output voiceTTS = new VoiceOutPutWAVPlayer();
 	
 	static {
 		initValues();
@@ -65,7 +65,7 @@ public class MathParser {
 			
 			return iscorrect;
 		}catch(Exception ooe){
-			voiceTTS.output("error");
+			//voiceTTS.output("error");
 			DesktopParser.consecutive_errors.getAndIncrement();
 			System.out.println("\n==========");
 			System.out.println("tmp [" + tmp+"]");
@@ -123,7 +123,7 @@ public class MathParser {
 		replacements.put("e", "10");
 		replacements.put(")", "");
 		replacements.put("w", "17");
-		replacements.put("m", "x");
+		replacements.put("m", "111");
 		replacements.put("z", "2");
 		replacements.put("u", "11");
 		replacements.put("é", "6");

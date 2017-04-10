@@ -14,6 +14,7 @@ public class OCRParser {
 	private Robot robot;
 	Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 	private ITesseract instance = new Tesseract();
+	
 	public String parse(Path path_, Rectangle rectangle) throws Exception {
 		return instance.doOCR(path_.toFile(), rectangle);
 	}
