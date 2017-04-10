@@ -13,3 +13,15 @@ Open the class and change any configs necessary to run app e.g
 - Screenshot buttons
 - Screen shot image extension ("png", "jpeg"...etc)
 
+
+# How to Run
+# ------------
+** Note: Tested on Mac Os Sierra Only **
+- Install telegram on your desktop
+- Open MathBattle
+- Run the class math.battle.cheat.ParserApp
+- Switch back to MathBattle on Telegram
+- Print the first print screen (Depends on your keyboard and or customization)
+- App should carry on playing math battle by itself. 
+- Highest score attained was 514 due to OCR imperfections
+
