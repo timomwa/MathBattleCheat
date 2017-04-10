@@ -3,6 +3,7 @@ Math battle on Telegram's Cheat - Java implementation.
 This is just for time wasting and for fun.
 
 Dependencies
+- Eclipse IDE (Tested on Version: Neon.2 Release (4.6.2) Build id: 20161208-0600) but shouldn't reall matter
 - Tess4j-3.3.1 (+all dependencies)
 - JMF-2.1.1e (+ dependencies )
 - FreeTTs-1.2.2 (+ dependencies )
